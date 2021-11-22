@@ -1,0 +1,54 @@
+{
+  "name": "@ederssouza/react-custom-hooks",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ederssouza"
+  },
+  "version": "1.0.0",
+  "description": "React JS custom hooks",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederssouza/react-custom-hooks.git"
+  },
+  "keywords": [
+    "React",
+    "Hooks",
+    "Custom hooks",
+    "ederssouza",
+    "Eder Sampaio"
+  ],
+  "author": "Eder Sampaio <edersampaio@outlook.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ederssouza/react-custom-hooks/issues"
+  },
+  "homepage": "https://github.com/ederssouza/react-custom-hooks#readme",
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx ./src",
+    "lint:fix": "npm run lint -- --fix",
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.27.1",
+    "react": "^17.0.2",
+    "rollup": "^2.60.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.5.2"
+  }
+}
